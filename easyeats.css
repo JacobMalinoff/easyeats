@@ -1,0 +1,199 @@
+/* Css page for easy eats. All of the formatting and color aspects to the sight will be done on this page */
+body {
+    color: darkorange;
+}
+html{
+    background-image: linear-gradient( to left, lightyellow, peachpuff)
+}
+nav{
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
+    top: 250px; 
+}
+
+li{
+    font-size: 1.1rem;
+}
+header {
+    font-size: 1.8em; 
+}
+header a {text-decoration: none;}
+
+#chicago{
+    background-image: url(images/Chicago.jpeg);
+    float: left;
+    
+}
+
+#tables {
+    float: right;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.form{
+    float: right;
+    position: relative;
+    top: -278px;
+    right: 280px
+}
+
+.down {
+    position: inherit;
+    top: 50px;
+    font-size: 1.1em;
+    color: orangered;
+}
+/* breakfast pictures */
+.breakfast{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* lunch pictures */
+.lunch{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* dinner pictures */
+.dinner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* specials pictures */
+.specials{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* drinks pictures */
+.drinks{
+     display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+h1{
+    font-size: 5.5rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.4rem;
+}
+#info{
+    margin-top: 50px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 6px;
+    border:  1px;
+    text-align: center;
+}
+/* Table for menu items */
+table{
+    background-color: floralwhite;
+    border: 0;
+    padding: 0;
+    align-content: center;
+    column-span: all;
+}
+
+.aboutp{
+    font-size: 1.3rem;
+}
+
+.storyp{
+    font-size: 1.3rem;
+}
+.locationsp{
+    font-size: 1.3rem;
+}
+
+.scrolldown{
+    text-align: center;
+}
+
+.locationspic{
+    padding-left: 580px;
+    padding-top: 25px;
+}
+
+.kitchen{
+    padding-left: 500px;
+    padding-top: 25px;
+}
+@media(min-width: 200px) and (max-width: 755px){
+    nav{flex-direction: column;
+    flex-flow: row;}
+    header{text-align: center;}
+    .breakfast{
+        display: flex;
+    }
+    .lunch{
+        display: flex;
+    }
+    .dinner{
+        display: flex;
+    }
+    .specials{
+        display: flex;
+    }
+    .drinks{
+        display: flex;
+    }
+     #chicago{
+        display: block;
+        margin: 450px 10px;
+    }
+    #tables{
+        display: block;
+        margin: -350px 74px;
+    }
+    p{ 
+        display: block;
+        margin: -150px 10px
+    }
+    #info{
+        margin-top: 880px;
+    }
+    th, td{
+        display: block;
+    }
+   .locationspic{
+    padding-left: 190px;
+    padding-top: 25px;
+}
+    .kitchen{
+        padding-left: 0px
+    }
+}
+
+@media(min-width: 756px) and (max-width: 1000px){
+    img{
+        width: 180px;
+        height: 190px;}
+    }
+
+   
+        
+    
+
+
+
+
